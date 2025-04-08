@@ -1,3 +1,3 @@
-# COMP302
+# COMP302 Classtest 3 Review Exercises
 
-https://youtu.be/vtpKxW4ZUiM
+Tutorial link: https://youtu.be/vtpKxW4ZUiM
