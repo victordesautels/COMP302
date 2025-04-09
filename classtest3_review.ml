@@ -28,6 +28,7 @@ type exp =
   | No of tp (* no A : failure to produce a value of type A *)
   | LetYes of name * exp * exp (* let yes x = e1 in e2 : bind x if e1 = yes v *)
   | Try of exp * exp (* try e1 with e2 : fallback to e2 if e1 = no A *)
+  (* Plase find the rules for the semantics in rules.pdf *)
   (* We can use this to implement safe operations such as a safe log *)
 exception TypeError of string
 exception NotImplemented
